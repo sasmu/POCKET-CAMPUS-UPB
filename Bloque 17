@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOQUE 17</title>
+    <style>
+        body {
+            background-image: url('c:/Users/samue/Downloads/videoplayback-ezgif.com-video-to-gif-converter.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-family: Verdana, sans-serif;
+        }
+        p {
+            font-family: Serif, serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .text {
+            max-width: 50%;
+        }
+        .image {
+            margin-left: 20px;
+        }
+        #gifContainer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        #gifContainer img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="gifContainer">
+        <img src="C:\Users\samue\Downloads\BLOQUE 17.gif" alt="Intro GIF">
+    </div>
+
+    <center><h1>¡BIENVENIDO AL BLOQUE 17!</h1></center>
+    <center><p>POCKET CAMPUS UPB</p></center>
+    <br><br>
+    <div class="container">
+        <div class="text">
+            <br><br>
+            <p>
+                El Bloque 17 de la Universidad Pontificia Bolivariana alberga el Polideportivo UPB Mons. Eugenio Restrepo Uribe y el Gimnasio UPB, instalaciones clave para la promoción de la actividad física y el bienestar en el campus. Este complejo deportivo está diseñado para ofrecer a la comunidad universitaria un espacio versátil y bien equipado para la práctica de diversas disciplinas deportivas.
+            </p>
+                <p>
+                    El Polideportivo cuenta con canchas cubiertas que permiten la práctica de deportes como baloncesto, voleibol y fútbol sala, además de áreas específicas para actividades recreativas y eventos deportivos. Estas instalaciones están equipadas con tecnología y materiales de alta calidad que garantizan un entorno seguro y cómodo para los usuarios.
+                </p>
+                <p>
+                    El Gimnasio UPB, también ubicado en el Bloque 17, ofrece una amplia gama de equipamiento de última generación para el entrenamiento físico, incluyendo máquinas de pesas, equipos cardiovasculares y áreas para actividades grupales. Este espacio está diseñado para atender las necesidades de estudiantes, profesores y personal, promoviendo un estilo de vida saludable y activo.
+                </p> 
+            </div>
+        <div class="image">
+            <img src="bloque 17.JPG" alt="1" height="400" width="450">
+        </div>
+    </div>
+
+    <script>
+        // Oculta el contenedor del GIF después de 5 segundos (5000 milisegundos)
+        setTimeout(function() {
+            document.getElementById('gifContainer').style.display = 'none';
+        }, 5000);
+
+        // Descomenta la siguiente línea si deseas redirigir a otra página después del GIF
+        // setTimeout(function() {
+        //     window.location.href = "tu-pagina.html"; // Cambia "tu-pagina.html" por la URL a la que quieres redirigir
+        // }, 5000);
+    </script>
+</body>
+</html>
+
