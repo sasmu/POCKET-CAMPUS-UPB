@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOQUE 1</title>
+    <style>
+        body {
+            background-image: url('c:/Users/samue/Downloads/videoplayback-ezgif.com-video-to-gif-converter.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-family: Verdana, sans-serif;
+        }
+        p {
+            font-family: Serif, serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .text {
+            max-width: 50%;
+        }
+        .image {
+            margin-left: 20px;
+        }
+        #gifContainer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        #gifContainer img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="gifContainer">
+        <img src="C:\Users\samue\Downloads\Bloque1-ezgif.com-cut.gif" alt="Intro GIF">
+    </div>
+
+    <center><h1>¡BIENVENIDO AL BLOQUE 1!</h1></center>
+    <center><p>POCKET CAMPUS UPB</p></center>
+    <br><br>
+    <div class="container">
+        <div class="text">
+            <br><br>
+            <p>
+                El Bloque 1 de la Universidad Pontificia Bolivariana alberga el Templo Universitario Nuestra Señora del Santísimo Sacramento, una destacada estructura religiosa ubicada en el campus. Este templo ofrece un espacio sagrado y de reflexión para la comunidad universitaria, integrando elementos arquitectónicos que reflejan el carácter espiritual de la universidad.
+            </p>
+            <p>
+                El Templo Universitario es un lugar de encuentro para celebraciones litúrgicas, eventos religiosos y momentos de oración. Diseñado para proporcionar un ambiente tranquilo y reverente, el templo es un punto central para la vida espiritual dentro del campus, apoyando el bienestar y la formación integral de estudiantes, profesores y personal.
+            </p>
+            <p>
+                Con su ubicación en el corazón del campus, el Templo Nuestra Señora del Santísimo Sacramento contribuye a la dimensión espiritual de la vida universitaria, ofreciendo un espacio dedicado a la reflexión y la práctica de valores religiosos.
+            </p>
+            </div>
+        <div class="image">
+            <img src="Bloque 1 UPB.jpg" alt="1" height="400" width="450">
+        </div>
+    </div>
+
+    <script>
+        // Oculta el contenedor del GIF después de 5 segundos (5000 milisegundos)
+        setTimeout(function() {
+            document.getElementById('gifContainer').style.display = 'none';
+        }, 5000);
+
+        // Descomenta la siguiente línea si deseas redirigir a otra página después del GIF
+        // setTimeout(function() {
+        //     window.location.href = "tu-pagina.html"; // Cambia "tu-pagina.html" por la URL a la que quieres redirigir
+        // }, 5000);
+    </script>
+</body>
+</html>
